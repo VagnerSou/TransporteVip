@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ExcluVip Mobilidade</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="manifest" href="manifest.json">
+
+    <meta name="theme-color" content="#D4AF37">
+
+</head>
+
+<body>
+
+<div class="container">
+
+    <div class="logo">
+
+        <img src="logo.jpeg" alt="ExcluVip">
+
+    </div>
+
+    <h1>Para onde vamos?</h1>
+
+    <form id="formViagem">
+
+        <div class="campo">
+
+            <label>Nome do passageiro</label>
+
+            <input
+                type="text"
+                id="nome"
+                placeholder="Digite seu nome">
+
+        </div>
+
+        <div class="linha">
+
+            <div class="campo metade">
+
+                <label>Data</label>
+
+                <input type="date" id="data">
+
+            </div>
+
+            <div class="campo metade">
+
+                <label>Hora</label>
+
+                <input type="time" id="hora">
+
+            </div>
+
+        </div>
+
+        <div class="campo">
+
+            <label>Origem</label>
+
+            <input
+                type="text"
+                id="origem"
+                placeholder="Digite o endereço de origem">
+
+        </div>
+
+        <div class="campo">
+
+            <label>Destino</label>
+
+            <input
+                type="text"
+                id="destino"
+                placeholder="Digite o endereço de destino">
+
+        </div>
+
+        <button type="submit">
+
+            Agendar Viagem
+
+        </button>
+
+    </form>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
